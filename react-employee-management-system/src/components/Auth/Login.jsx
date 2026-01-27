@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 const Login = ({handleLogin}) => {
-    
+
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
 
@@ -12,7 +12,6 @@ const Login = ({handleLogin}) => {
         setEmail("")
         setPassword("")
     }
-
 
   return (
     <div className='flex h-screen w-screen items-center justify-center'>
